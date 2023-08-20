@@ -31,3 +31,10 @@ body {
     'Courier New', monospace;
     z-index: -99999;
 }
+
+.container-fluid,
+.row,
+.col {
+    margin: 0;
+    padding: 0;
+}
