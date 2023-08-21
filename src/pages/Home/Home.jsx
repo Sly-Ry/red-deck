@@ -2,21 +2,29 @@ import './Home.css';
 
 import cafe1 from '../../assets/images/cafe1.jpg'
 import { BgImageComponent } from '../../components/BgImageComponent';
-import { BannerComponent } from '../../components/BannerComponent';
 
 export default function Home() {
     return (
         <>  
             <BgImageComponent img={cafe1}/>
             <div >
-                <BannerComponent 
-                    color={'bg-color2'}
-                    quote={'“Quiero café!”'}
-                    motto={'AN ALL DAY CAFÉ'}
-                    submotto={'SUN - MON'}
-                />
-                <div className="container-fluid bg-white text-dark">
-                    <h1>hellow two!</h1>
+                <div className="banner row" style={{height: '100vh'}}></div>
+                <div className="home container-fluid d-flex justify-content-center align-items-center" style={{height: '1000px'}}>
+                    <div className="row d-flex justify-content-center text-center text-white p-5">
+                        <div className="title col-12">
+                            <p className='welcome fs-1'><span className="border-bottom">Bienvenidos a The Red Deck Café y Barra</span></p>
+                            <p className='welcome2 fs-2'>Welcome  to The Red Deck Café y Barra </p>
+                        </div>
+                        <div className="home-body col-6 text-start mb-5">
+                            <p className='fs-4 fw-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id rerum, distinctio tempora voluptas totam temporibus eius aliquid, incidunt vitae reprehenderit impedit possimus odit doloremque. Temporibus odit assumenda rerum ipsum.</p>
+                        </div>
+                        <div className="info col-12">
+                            <p className='title fs-2'>ALL DAY CAFÉ</p>
+                            <p className='fw-bold'>Dining room & bar open 7 days a week</p>
+                            <p className='title fs-2'>COMING SOON</p>
+                            <p className='fw-bold'>Takeaway available daily. order online for pick-up or deliver through favor.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
