@@ -1,5 +1,5 @@
-import { LogoComponent } from "../components/LogoComponent";
-import { SideNavComponent } from "../components/SideNavComponent";
+import { LogoLayout } from "./LogoLayout";
+import { SideNavLayout } from "./SideNavLayout";
 import { FooterLayout } from "./FooterLayout";
 
 import './NavLayout.css';
@@ -9,9 +9,9 @@ export function NavLayout() {
         <>
             <div className="col col-2 bg-color2 d-flex flex-column align-items-start fixed-top" style={{minHeight: '100vh'}}>
                 {/* LOGO */}
-                <LogoComponent />
+                <LogoLayout />
                 {/* NAVIGATION */}
-                <SideNavComponent />
+                <SideNavLayout />
                 {/* FOOTER */}
                 <FooterLayout />
             </div>

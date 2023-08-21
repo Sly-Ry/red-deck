@@ -1,5 +1,7 @@
-.img {
-    max-height: 1200px;
-    overflow: hidden;
-    z-index: -1;
+.banner .motto {
+    margin-bottom: -10px;
+}
+
+.banner .submotto {
+    letter-spacing: -1px;
 }

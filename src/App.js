@@ -8,7 +8,7 @@ import './App.css';
 import Home from './pages/Home/Home'
 
 // COMPONENTS
-import { NavLayout } from './layouts/NavLayout';
+import { NavLayout } from './layouts/NavLayout/NavLayout';
 
 export default function App() {
   return (

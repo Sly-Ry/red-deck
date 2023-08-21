@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export function SideNavComponent() {
+export function SideNavLayout() {
     return (
         <>
             <div className="col col-12 ">

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export function LogoComponent() {
+export function LogoLayout() {
     return (
         <>
             <div className="logo col col-12 text-center py-5">
