@@ -1,3 +1,8 @@
+:root {
+    --main-bg-color: rgb(168, 0, 0);
+    --secondary-bg-color: rgb(153, 141, 115);
+}
+
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -13,22 +18,8 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    font-family: 
-    -apple-system, 
-    BlinkMacSystemFont, 
-    source-code-pro, 
-    Menlo, 
-    Monaco, 
-    Consolas, 
-    'Segoe UI', 
-    'Roboto', 
-    'Oxygen',
-    'Ubuntu', 
-    'Cantarell', 
-    'Fira Sans', 
-    'Droid Sans', 
-    'Helvetica Neue', sans-serif, 
-    'Courier New', monospace;
+    font-family: "'Montserrat', sans-serif"; 
+    font-weight: thin;
     z-index: -99999;
 }
 
@@ -37,4 +28,19 @@ body {
 .col {
     margin: 0;
     padding: 0;
+}
+
+.bg-color1 {
+    background-color: var(--main-bg-color);
+}
+.bg-color2 {
+    background-color: var(--secondary-bg-color);
+}
+
+.text-color1 {
+    color: var(--main-bg-color);
+}
+
+.glow {
+    text-shadow: 2px 0 4px var(--main-bg-color);
 }

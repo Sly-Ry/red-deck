@@ -1,0 +1,22 @@
+.logo .the {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.logo .name {
+    font-size: 3rem;
+    letter-spacing: -3px;
+}
+
+.logo .tag {
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+}
+
+.mail input:focus {
+    box-shadow: none !important;
+}
+
+.mail .btn:hover {
+    background-color: rgb(255, 0, 0) !important;
+}
