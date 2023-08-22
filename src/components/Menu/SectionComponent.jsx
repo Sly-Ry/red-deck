@@ -1,9 +1,6 @@
 import FlavorComponent from "./FlavorComponent";
 
 export function SectionComponent( {color, name, flavors}) {
-
-    
-
     return (
         <>
             <div id={name} className={`section row p-5 ${color}`} style={{minHeight: '100vh'}}>
