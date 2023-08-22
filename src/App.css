@@ -2,6 +2,10 @@
     --main-bg-color: rgb(168, 0, 0);
     --secondary-bg-color: rgb(153, 141, 115);
     --tri-bg-color: rgb(124, 50, 54);
+    --quad-bg-color: rgb(212, 72, 72);
+    --quin-bg-color: rgb(196, 104, 104);
+    --ses-bg-color: rgb(46, 1, 1);
+    --sept-bg-color: rgb(116, 3, 3);
 }
 
 *, *:before, *:after {
@@ -39,6 +43,18 @@ body {
 }
 .bg-color3 {
     background-color: var(--tri-bg-color);
+}
+.bg-color4 {
+    background-color: var(--quad-bg-color);
+}
+.bg-color5 {
+    background-color: var(--quin-bg-color);
+}
+.bg-color6 {
+    background-color: var(--ses-bg-color);
+}
+.bg-color7 {
+    background-color: var(--sept-bg-color);
 }
 
 .text-color1 {
