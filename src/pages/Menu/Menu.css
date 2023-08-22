@@ -1,0 +1,19 @@
+/* NAVLINK */
+.menu nav a {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.menu nav a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 2px rgb(255, 0, 0);
+}
+
+
+/* MENU ITEMS */
+.section-title {
+    font-size: 5rem;
+}
+
+.section .row .col-3 .row .title {
+    margin-bottom: -15px;
+}

@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: rgb(168, 0, 0);
     --secondary-bg-color: rgb(153, 141, 115);
+    --tri-bg-color: rgb(124, 50, 54);
 }
 
 *, *:before, *:after {
@@ -35,6 +36,9 @@ body {
 }
 .bg-color2 {
     background-color: var(--secondary-bg-color);
+}
+.bg-color3 {
+    background-color: var(--tri-bg-color);
 }
 
 .text-color1 {

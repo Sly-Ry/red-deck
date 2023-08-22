@@ -1,12 +1,6 @@
-.banner .motto {
-    margin-bottom: -10px;
-}
-
-.banner .submotto {
-    letter-spacing: -1px;
-}
-
+/* HOME */
 .home {
+    padding: 140px 0;
     background-color: rgba(58, 39, 39, 0.719);
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.596);
 }

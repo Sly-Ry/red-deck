@@ -6,6 +6,8 @@ import './App.css';
 
 // ROUTES
 import Home from './pages/Home/Home'
+import About from './pages/About/About';
+import Menu from './pages/Menu/Menu';
 
 // COMPONENTS
 import { NavLayout } from './layouts/NavLayout/NavLayout';
@@ -20,6 +22,8 @@ export default function App() {
             <div className="col col-10">
               <Routes>
                 <Route path='/' element={<Home />}/>
+                <Route path='/about/*' element={<About />}/>
+                <Route path='/menu/*' element={<Menu />}/>
               </Routes>
             </div>
         </div>
