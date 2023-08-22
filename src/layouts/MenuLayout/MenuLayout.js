@@ -1,5 +1,7 @@
 import { BannerComponent } from '../../components/BannerComponent';
 import { MenuBodyLayout } from './MenuBodyLayout';
+import { CarouselComponent } from '../../components/Menu/CarouselComponent';
+
 
 export function MenuLayout() {
     return (
@@ -11,6 +13,7 @@ export function MenuLayout() {
                 submotto={"See what's in store"}
             />
             <MenuBodyLayout />
+            <CarouselComponent />
         </>
     )
 }
