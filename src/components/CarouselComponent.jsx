@@ -1,9 +1,9 @@
-import cafe2 from '../../assets/images/cafe2.jpg';
-import cafe3 from '../../assets/images/cafe3.jpg';
-import cafe4 from '../../assets/images/cafe4.jpg';
-import cafe5 from '../../assets/images/cafe5.jpg';
-import cafe6 from '../../assets/images/cafe6.jpg';
-import cafe7 from '../../assets/images/cafe7.jpg';
+import cafe2 from '../assets/images/cafe2.jpg';
+import cafe3 from '../assets/images/cafe3.jpg';
+import cafe4 from '../assets/images/cafe4.jpg';
+import cafe5 from '../assets/images/cafe5.jpg';
+import cafe6 from '../assets/images/cafe6.jpg';
+import cafe7 from '../assets/images/cafe7.jpg';
 
 export function CarouselComponent() {
     return (

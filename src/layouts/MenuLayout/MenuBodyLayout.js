@@ -40,7 +40,7 @@ export function MenuBodyLayout() {
                             />
                             <SectionComponent 
                                 key={menuItem.id}
-                                color={menuItem.color}
+                                screen={menuItem.screen}
                                 name={menuItem.name}
                                 flavors={menuItem.flavors}
                             />

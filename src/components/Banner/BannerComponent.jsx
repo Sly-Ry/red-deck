@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 import './BannerComponent.css';
 
-export function BannerComponent( {color, quote, motto, submotto} ) {
+export function BannerComponent( {color, quote, motto, submotto, link, linktext} ) {
     
     $(function() {
         $('div.side').addClass(color);
@@ -16,7 +16,13 @@ export function BannerComponent( {color, quote, motto, submotto} ) {
                     <p className='quote fs-1 text-color1'>{quote}</p>
                     <h1 className='motto text-uppercase'>{motto}</h1>
                     <p className='submotto fs-3 text-uppercase'>{submotto}</p>
+                    <a href={`#${link}`}>
+                        <p className='link fs-5 text-uppercase text-white'>
+                            {linktext}
+                        </p>
+                    </a>
                 </div>
+                    
             </div>
         </>
     )

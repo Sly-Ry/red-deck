@@ -10,6 +10,7 @@ export const menuItems = [
         id: 1,
         name: 'cafe',
         color: 'bg-color4',
+        screen: 'cafe',
         flavors: [
             {
                 id: 1,
@@ -37,6 +38,7 @@ export const menuItems = [
         id: 2,
         name: 'beber',
         color: 'bg-color5',
+        screen: 'beber',
         flavors: [
             {
                 id: 1,
@@ -64,6 +66,7 @@ export const menuItems = [
         id: 3,
         name: 'vino',
         color: 'bg-color6',
+        screen: 'vino',
         flavors: [
             {
                 id: 1,
@@ -91,6 +94,7 @@ export const menuItems = [
         id: 4,
         name: 'la hora',
         color: 'bg-color7',
+        screen: 'la hora',
         flavors: [
             {
                 id: 1,

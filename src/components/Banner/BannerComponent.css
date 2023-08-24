@@ -1,0 +1,26 @@
+/* BANNER COMPONENT */
+.motto {
+    margin-bottom: 10px;
+}
+
+.submotto {
+    letter-spacing: -1px;
+    line-height: 30px;
+}
+
+.banner a {
+    position: absolute;
+    bottom: 0px;
+    text-decoration: none !important;
+}
+
+.banner a .link:hover {
+    transition: text-shadow .1s ease-in-out;
+}
+
+.banner a .link:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 5px 5px rgb(0, 0, 0);
+    text-decoration: underline !important;
+}
+

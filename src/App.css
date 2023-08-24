@@ -2,10 +2,16 @@
     --main-bg-color: rgb(168, 0, 0);
     --secondary-bg-color: rgb(153, 141, 115);
     --tri-bg-color: rgb(124, 50, 54);
-    --quad-bg-color: rgb(218, 59, 59);
-    --quin-bg-color: rgb(172, 75, 75);
-    --ses-bg-color: rgb(59, 0, 0);
-    --sept-bg-color: rgb(116, 3, 3);
+    --quad-bg-color: rgb(250, 93, 93);
+    --quad-bg-color-o: rgba(252, 103, 103, 0.849);
+    --quin-bg-color: rgb(173, 59, 59);
+    --quin-bg-color-o: rgba(156, 68, 68, 0.767);
+    --ses-bg-color: rgb(124, 13, 13);
+    --ses-bg-color-o: rgba(59, 0, 0, 0.671);
+    --sept-bg-color: rgb(199, 25, 25);
+    --sept-bg-color-o: rgba(160, 15, 15, 0.555);
+    --oct-bg-color: rgb(39, 20, 20);
+    --oct-bg-color-o: rgb(39, 20, 20);
 }
 
 *, *:before, *:after {
@@ -55,6 +61,9 @@ body {
 }
 .bg-color7 {
     background-color: var(--sept-bg-color);
+}
+.bg-color8 {
+    background-color: var(--oct-bg-color);
 }
 
 .text-color1 {

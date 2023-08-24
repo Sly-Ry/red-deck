@@ -19,3 +19,16 @@
 .section .row .col-3 .row .title {
     margin-bottom: -15px;
 }
+
+.cafe {
+    background-color: var(--quad-bg-color-o);
+}
+.beber {
+    background-color: var(--quin-bg-color-o);
+}
+.vino {
+    background-color: var(--ses-bg-color-o);
+}
+.la.hora {
+    background-color: var(--sept-bg-color-o);
+}
