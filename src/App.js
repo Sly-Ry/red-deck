@@ -28,7 +28,7 @@ export default function App() {
                 <Route path='/about/*' element={<About />}/>
                 <Route path='/menu/*' element={<Menu />}/>
                 <Route path='/catering/*' element={<Catering />}/>
-                <Route path='/gift-card/*' element={<GiftCard />}/>
+                <Route path='/gift-cards/*' element={<GiftCard />}/>
                 <Route path='/contact/*' element={<Contact />}/>
               </Routes>
             </div>

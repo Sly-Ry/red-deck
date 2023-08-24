@@ -1,12 +1,12 @@
 import './Home.css';
 
 import { BgImageComponent } from '../../components/BgImageComponent';
-import cafe1 from '../../assets/images/cafe1.jpg';
+import bg from '../../assets/images/bg/bg1.jpg';
 
 export default function Home() {
     return (
         <>  
-            <BgImageComponent img={cafe1}/>
+            <BgImageComponent img={bg}/>
             <div className="banner row" style={{height: '100vh'}}></div>
             <div className="home container-fluid d-flex justify-content-center align-items-center">
                 <div className="row d-flex justify-content-center text-center text-white p-5">
