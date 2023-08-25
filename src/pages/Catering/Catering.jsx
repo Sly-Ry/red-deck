@@ -7,7 +7,7 @@ import bg from '../../assets/images/bg/bg1.jpg';
 export default function Catering() {
     return (
         <>
-            <BgImageComponent img={bg}/>
+            <BgImageComponent img={bg}  fixed={'fixed-top'}/>
             <CateringLayout />
         </>
     )

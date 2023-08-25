@@ -21,8 +21,7 @@ export function BannerComponent( {color, quote, qColor, motto, submotto, link, l
                             {linktext}
                         </p>
                     </a>
-                </div>
-                    
+                </div> 
             </div>
         </>
     )

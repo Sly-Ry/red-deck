@@ -6,7 +6,7 @@ import bg from '../../assets/images/bg/bg1.jpg';
 export default function Home() {
     return (
         <>  
-            <BgImageComponent img={bg}/>
+            <BgImageComponent img={bg} fixed={'fixed-top'}/>
             <div className="banner row" style={{height: '100vh'}}></div>
             <div className="home container-fluid d-flex justify-content-center align-items-center">
                 <div className="row d-flex justify-content-center text-center text-white p-5">

@@ -7,7 +7,7 @@ import bg from '../../assets/images/bg/bg1.jpg';
 export default function Contact() {
     return (
         <>
-            <BgImageComponent img={bg}/>
+            <BgImageComponent img={bg} fixed={'fixed-top'}/>
             <ContactLayout />
         </>
     )

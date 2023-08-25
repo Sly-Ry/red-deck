@@ -7,7 +7,7 @@ import bg from '../../assets/images/bg/bg2.jpg';
 export default function Menu() {
     return (
         <>
-            <BgImageComponent img={bg}/>
+            <BgImageComponent img={bg} fixed={'fixed-top'}/>
             <MenuLayout />
         </>
     )
