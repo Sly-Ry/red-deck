@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom";
+import { LogoLayout } from "./LogoLayout";
 
 export function SideNavLayout() {
     return (
         <>
-            <div className="col col-12 ">
+            
+            <div className="col col-12">
+                <LogoLayout />
                 <nav className="nav flex-column p-5">
                     <NavLink className="nav-link text-reset" to="/about">ABOUT</NavLink>
                     <NavLink className="nav-link text-reset" to="/menu">MENU</NavLink>

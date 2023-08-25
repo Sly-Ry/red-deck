@@ -1,7 +1,7 @@
 export function FooterLayout() {
     return (
         <>
-            <div className="col col-2 bg-color2 fixed-bottom">
+            <div className="col bg-color2">
                 {/* MAILING LIST */}
                 <form className="mail p-4">
                     <div>

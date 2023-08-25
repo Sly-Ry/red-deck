@@ -11,7 +11,7 @@
     --sept-bg-color: rgb(199, 25, 25);
     --sept-bg-color-o: rgba(160, 15, 15, 0.555);
     --oct-bg-color: rgb(39, 20, 20);
-    --oct-bg-color-o: rgb(39, 20, 20);
+    --oct-bg-color-o: rgba(39, 20, 20, 0.788);
 }
 
 *, *:before, *:after {
