@@ -1,0 +1,12 @@
+.contact {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.contact h1,
+.contact p {
+    text-shadow: 0 3px 5px rgb(63, 0, 0);
+}
+
+.contact .row .ext {
+    margin-top: -20px;
+}

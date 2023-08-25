@@ -7,7 +7,7 @@ export function MenuLayout() {
     return (
         <>
             <BannerComponent 
-                color={'bg-color8'} 
+                color={'bg-color7'} 
                 quote={''}
                 motto={'menu'} 
                 submotto={"See what's in store"}
