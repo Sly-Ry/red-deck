@@ -6,7 +6,7 @@ export function SideNavLayout() {
         <>
             
             <div className="col col-12">
-                <LogoLayout />
+                <LogoLayout on={true}/>
                 <nav className="nav flex-column p-5">
                     <NavLink className="nav-link text-reset" to="/about">ABOUT</NavLink>
                     <NavLink className="nav-link text-reset" to="/menu">MENU</NavLink>

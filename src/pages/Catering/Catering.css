@@ -1,3 +1,7 @@
 .catering-bg {
     background-color: var(--oct-bg-color-o);
 }
+
+#catering-harper a {
+    text-decoration: none;
+}

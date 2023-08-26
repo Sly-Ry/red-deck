@@ -1,0 +1,27 @@
+#gift .row .col-6 img {
+    min-width: 100%;
+    opacity: .7;
+}
+
+#gift .card-title {
+    margin-top: -15%;
+}
+
+#gift .logo .the {
+    font-size: 2rem !important;
+}
+
+#gift .logo .name {
+    font-size: 4.7rem;
+    letter-spacing: -3px;
+}
+
+#gift .logo .tag {
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+    font-size: 2rem !important;
+}
+
+#gift .info {
+    color: rgba(0, 0, 0, 0.568);
+}
