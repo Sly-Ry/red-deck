@@ -21,8 +21,8 @@ export default function App() {
       <div className="text-white" style={{fontFamily: "'Montserrat', sans-serif", fontWeight: 100}}>
         <div className="row">
             <NavLayout />
-            <div className="col-2"></div>
-            <div className="col col-10">
+            <div className="col-md-12 col-xxl-2"></div>
+            <div className="col col-md-12 col-xxl-10">
               <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path='/about/*' element={<About />}/>

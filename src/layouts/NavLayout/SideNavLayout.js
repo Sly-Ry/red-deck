@@ -5,9 +5,9 @@ export function SideNavLayout() {
     return (
         <>
             
-            <div className="col col-12">
+            <div id="" className="col col-12 bg-color2">
                 <LogoLayout on={true}/>
-                <nav className="nav flex-column p-5">
+                <nav className="nav p-5">
                     <NavLink className="nav-link text-reset" to="/about">ABOUT</NavLink>
                     <NavLink className="nav-link text-reset" to="/menu">MENU</NavLink>
                     <NavLink className="nav-link text-reset" to="/catering">CATERING</NavLink>
