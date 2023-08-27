@@ -1,7 +1,7 @@
 export function FooterLayout() {
     return (
         <>
-            <div id="footer" className="container-fluid bg-color2">
+            <div id="footer" className="container-fluid bg-color2 page">
                 <div className="row g-3">
                     {/* MAILING LIST */}
                     <div className="col-lg-6 col-xxl-12">

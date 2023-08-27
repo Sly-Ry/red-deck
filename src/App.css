@@ -73,3 +73,7 @@ body {
 .glow {
     text-shadow: 2px 0 4px var(--main-bg-color);
 }
+
+.page {
+    min-height: 100vh;
+}
