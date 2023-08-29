@@ -7,7 +7,7 @@ export function SideNavLayout() {
             
             <div id="" className="col col-12 bg-color2">
                 <LogoLayout on={true}/>
-                <nav className="nav p-5">
+                <nav className="nav mx-5 pt-5">
                     <NavLink className="nav-link text-reset" to="/about">ABOUT</NavLink>
                     <NavLink className="nav-link text-reset" to="/menu">MENU</NavLink>
                     <NavLink className="nav-link text-reset" to="/catering">CATERING</NavLink>

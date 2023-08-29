@@ -9,8 +9,12 @@
 }
 
 
-
 /* MENU ITEMS */
+.flavor .row .name {
+    margin-right: 4.5rem;
+
+}
+
 .section-title {
     margin: 25px 0 -10px ;
     font-size: 5rem;
@@ -32,4 +36,32 @@
 }
 .la.hora {
     background-color: var(--sept-bg-color-o);
+}
+
+@media (max-width: 1399px) {
+    
+    .flavor .row .title {
+        justify-content: space-between;
+    }
+
+    .flavor {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.74) !important;
+    }
+
+    .menu .section .section-title {
+        margin-bottom: 20px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center !important;
+        font-size: 4.5rem !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .flavor .col-title {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }

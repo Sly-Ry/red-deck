@@ -10,14 +10,14 @@ export function MenuNavLayout({color, disable}) {
                         if (menuItem.name === disable){
                             return (
                                 <>
-                                    <a className="nav-link fs-5 px-4 text-uppercase disabled active" href={`#${menuItem.name}`}>{menuItem.name}</a>
+                                    <a className="nav-link fs-5 px-2 text-uppercase disabled active" href={`#${menuItem.name}`}>{menuItem.name}</a>
                                 </>
                             );
                         }
                         else {
                             return (
                                 <>
-                                    <a className="nav-link fs-5 px-4 text-uppercase" href={`#${menuItem.name}`}>{menuItem.name}</a>
+                                    <a className="nav-link fs-5 px-2 text-uppercase" href={`#${menuItem.name}`}>{menuItem.name}</a>
                                 </>
                             );
                         }

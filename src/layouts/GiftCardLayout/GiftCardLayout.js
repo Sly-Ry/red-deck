@@ -6,7 +6,7 @@ export function GiftCardLayout() {
     return (
         <>
             <BannerComponent 
-                color={'bg-color4'} 
+                color={'bg-color7'} 
                 quote={""}
                 qColor={''}
                 motto={'gift cards'} 

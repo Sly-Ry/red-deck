@@ -1,4 +1,8 @@
 /* HOME */
+.home-color1 {
+    background-color: var(--main-bg-color-o);
+}
+
 .home {
     padding: 140px 0;
 }

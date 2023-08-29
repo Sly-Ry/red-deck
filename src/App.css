@@ -1,6 +1,7 @@
 :root {
-    --main-bg-color: rgb(168, 0, 0);
-    --secondary-bg-color: rgb(153, 141, 115);
+    --main-bg-color: rgb(236, 0, 0);
+    --main-bg-color-o: rgba(92, 2, 2, 0.534);
+    --secondary-bg-color: rgb(56, 52, 45);
     --tri-bg-color: rgb(124, 50, 54);
     --quad-bg-color: rgb(250, 93, 93);
     --quad-bg-color-o: rgba(252, 103, 103, 0.849);
@@ -68,7 +69,6 @@ body {
 
 .text-white {
     color: white !important;
-    text-shadow: 0 1.3px 1px white;
 }
 
 .text-color1 {

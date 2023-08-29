@@ -38,10 +38,14 @@
         min-height: 0;
     }
 
-    nav {
+    #navlay nav {
         flex-direction: row !important;
         align-items: center;
         justify-content: center;
+    }
+
+    #navlay nav .nav-link {
+        margin-right: -5px;
     }
 
     .logo {

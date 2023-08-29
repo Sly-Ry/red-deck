@@ -8,7 +8,7 @@ export default function Home() {
         <>  
             <BgImageComponent img={bg} fixed={'fixed-top'}/>
             <div className="home container-fluid d-flex justify-content-center align-items-center page">
-                <div className="row d-flex justify-content-center text-center text-white bg-color1">
+                <div className="row d-flex justify-content-center text-center text-white home-color1">
                     <div className="title col-lg-10 col-xxl-12 p-4">
                         <p className='welcome fs-1'><span className="border-bottom">Bienvenidos a The Red Deck <span className='ghost'>Café y Barra</span></span></p>
                         <p className='en fs-2'>Welcome to The Red Deck Café y Barra </p>
