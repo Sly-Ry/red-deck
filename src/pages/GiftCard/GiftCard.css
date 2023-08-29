@@ -4,15 +4,15 @@
 }
 
 #gift .card-title {
-    margin-top: -15%;
+    margin-top: -25%;
 }
 
 #gift .logo .the {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
 }
 
 #gift .logo .name {
-    font-size: 4.7rem;
+    font-size: 3.7rem;
     letter-spacing: -3px;
 }
 
@@ -24,4 +24,17 @@
 
 #gift .info {
     color: rgba(0, 0, 0, 0.568);
+    height: 75px;
+}
+
+
+@media screen and (max-width: 1399px) {
+    
+    .tickets {
+        padding-top: 40px;
+    }
+
+    #gift .info {
+        margin-top: -250px;
+    }
 }
