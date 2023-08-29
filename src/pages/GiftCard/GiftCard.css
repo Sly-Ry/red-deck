@@ -4,7 +4,7 @@
 }
 
 #gift .card-title {
-    margin-top: -25%;
+    margin-top: -10%;
 }
 
 #gift .logo .the {
@@ -12,7 +12,7 @@
 }
 
 #gift .logo .name {
-    font-size: 3.7rem;
+    font-size: 3.3rem;
     letter-spacing: -3px;
 }
 
@@ -26,15 +26,34 @@
     color: rgba(0, 0, 0, 0.568);
     height: 75px;
 }
+#gift .price {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
 
+#gift .price h1 {
+    font-size: 2rem;
+}
+
+#gift .tickets {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
 
 @media screen and (max-width: 1399px) {
-    
-    .tickets {
-        padding-top: 40px;
-    }
 
     #gift .info {
-        margin-top: -250px;
+        margin-top: -240px;
     }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* #gift-card .card {
+        width: 300px !important;
+        min-width: 300px !important;
+    } */
+
 }

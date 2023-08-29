@@ -1,4 +1,4 @@
-export function ContactInfoLayout() {
+export function ExtensionLayout() {
     return (
         <>
             <h1 className="text-center">Contact</h1>

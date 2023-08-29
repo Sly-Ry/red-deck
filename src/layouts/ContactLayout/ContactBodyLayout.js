@@ -1,4 +1,4 @@
-import { ContactInfoLayout } from "./ContactInfoLayout";
+import { ExtensionLayout } from "./ExtensionLayout";
 import { HiringLayout } from "./HiringLayout";
 import { HoursLayout } from "./HoursLayout";
 import { LocationLayout } from "./LocationLayout";
@@ -12,9 +12,9 @@ export function ContactBodyLayout() {
                     <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
                         <HoursLayout />
                     </div>
-                    {/* CONTACT INFO*/}
+                    {/* EXTENSIONS*/}
                     <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
-                        <ContactInfoLayout />
+                        <ExtensionLayout />
                     </div>
                     {/* HIRING */}   
                     <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
