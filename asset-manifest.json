@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/red-deck/menu/static/css/main.de83725c.css",
+    "main.js": "/red-deck/menu/static/js/main.b2d17879.js",
+    "static/js/787.c69d4d7a.chunk.js": "/red-deck/menu/static/js/787.c69d4d7a.chunk.js",
+    "static/media/cafe6.jpg": "/red-deck/menu/static/media/cafe6.cfba764d49d21b88350c.jpg",
+    "static/media/bg1.jpg": "/red-deck/menu/static/media/bg1.39b1ac54a66d26d06693.jpg",
+    "static/media/cafe2.jpg": "/red-deck/menu/static/media/cafe2.1d65bc8ee4db02b8d61a.jpg",
+    "static/media/cafe5.jpg": "/red-deck/menu/static/media/cafe5.eed99de47a37a54cbef0.jpg",
+    "static/media/cafe3.jpg": "/red-deck/menu/static/media/cafe3.00a75c7045475aaae406.jpg",
+    "static/media/bg3.jpg": "/red-deck/menu/static/media/bg3.8ce47a6432e8c6066578.jpg",
+    "static/media/person3.jpg": "/red-deck/menu/static/media/person3.049bdce446c6f05f217b.jpg",
+    "static/media/person1.jpg": "/red-deck/menu/static/media/person1.4e4e6b61b46a74819e60.jpg",
+    "static/media/cater1.jpg": "/red-deck/menu/static/media/cater1.89ef886925825b97a869.jpg",
+    "static/media/bg4.jpg": "/red-deck/menu/static/media/bg4.a570b7670fd65865b870.jpg",
+    "static/media/cater2.jpg": "/red-deck/menu/static/media/cater2.4446c4327ec5dea53114.jpg",
+    "static/media/cafe7.jpg": "/red-deck/menu/static/media/cafe7.e48de2b4339c3dd7358b.jpg",
+    "static/media/person2.jpg": "/red-deck/menu/static/media/person2.975e9d06e34f4f6c6411.jpg",
+    "static/media/cafe4.jpg": "/red-deck/menu/static/media/cafe4.528b0277f4714a3effd5.jpg",
+    "static/media/bg2.jpg": "/red-deck/menu/static/media/bg2.ad5bca43103a7f45e538.jpg",
+    "static/media/bootstrap-icons.woff?": "/red-deck/menu/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/red-deck/menu/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/red-deck/menu/index.html",
+    "main.de83725c.css.map": "/red-deck/menu/static/css/main.de83725c.css.map",
+    "main.b2d17879.js.map": "/red-deck/menu/static/js/main.b2d17879.js.map",
+    "787.c69d4d7a.chunk.js.map": "/red-deck/menu/static/js/787.c69d4d7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de83725c.css",
+    "static/js/main.b2d17879.js"
+  ]
+}
