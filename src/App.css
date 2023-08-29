@@ -88,6 +88,15 @@ body {
     display: none;
 }
 
+/* scrollTab */
+.scrolltab {
+    background-color: rgba(199, 0, 0, 0.685) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 3px black !important;
+    z-index: 9999 !important;
+}
+
+
 @media (max-width: 1399px){
     
     .page {

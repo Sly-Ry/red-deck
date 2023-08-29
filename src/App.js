@@ -37,19 +37,20 @@ export default function App() {
             <AllFooterLayout hidden="hidden" />
             <ScrollToTop 
               smooth 
+              component={<i className="bi bi-cup-hot fs-1"></i>}
               className='scrolltab'
-              color='white'
+              color=''
               style={{
-                backgroundColor: 'transparent',
-                width: 75, 
-                height: 55,
+                backgroundColor: '',
+                width: 85, 
+                height: 85,
                 position:'fixed',
-                bottom: 0,
-                right: 40,
-                borderTopLeftRadius: 5,
-                borderTopRightRadius: 5,
-                borderBottomLeftRadius: 0,
-                borderBottomRightRadius: 0
+                bottom: 20,
+                right: 45,
+                borderTopLeftRadius: 50,
+                borderTopRightRadius: 50,
+                borderBottomLeftRadius: 50,
+                borderBottomRightRadius: 50
               }}
             />
         </div>
