@@ -7,15 +7,23 @@ export function ContactBodyLayout() {
     return (
         <>
             <div id="contact" className="contact container-fluid d-flex align-items-center justify-content-center text-white" style={{minHeight: '100vh'}}>
-                <div className="row d-flex align-items-start fw-bold w-100">
+                <div className="row d-flex align-items-start justify-content-center fw-bold w-100">
                     {/* HOURS */}
-                    <HoursLayout />
+                    <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
+                        <HoursLayout />
+                    </div>
                     {/* CONTACT INFO*/}
-                    <ContactInfoLayout />
-                    {/* HIRING */}
-                    <HiringLayout />
-                    {/* LOCATION */}
-                    <LocationLayout />
+                    <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
+                        <ContactInfoLayout />
+                    </div>
+                    {/* HIRING */}   
+                    <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
+                        <HiringLayout />
+                    </div>
+                    {/* LOCATION */} 
+                    <div className="col-10 col-md-5 col-lg-3 text-uppercase p-5">
+                        <LocationLayout />
+                    </div>
                 </div>
             </div>
         </>

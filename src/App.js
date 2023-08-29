@@ -14,6 +14,7 @@ import Contact from './pages/Contact/Contact';
 
 // COMPONENTS
 import { NavLayout } from './layouts/NavLayout/NavLayout';
+import { AllFooterLayout } from './components/AllFooterComponent';
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
                 <Route path='/contact/*' element={<Contact />}/>
               </Routes>
             </div>
+            <AllFooterLayout hidden="hidden" />
         </div>
       </div>
     </>

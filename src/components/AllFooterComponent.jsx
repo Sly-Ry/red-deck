@@ -1,11 +1,11 @@
-export function FooterLayout({hidden}) {
+export function AllFooterLayout({hidden}) {
     return (
         <>
-            <div id="footer" className="container-fluid bg-color2 page ">
-                <div className="row g-3">
+            <div id="allfooter" className={`container-fluid bg-color2 ${hidden}`}>
+                <div className="row d-flex justify-content-center align-items-center text-center g-3 my-4 px-2">
                     {/* MAILING LIST */}
-                    <div className="col-lg-6 col-xxl-12">
-                        <form className="mail p-4">
+                    <div className="col-md-3">
+                        <form className="mail text-start p-4">
                             <div>
                                 <label htmlFor="email" className="form-label">MAILING LIST</label>
                                 <input type="email" className="form-control border-black rounded-0" id="email" placeholder="EMAIL"/>
@@ -13,14 +13,14 @@ export function FooterLayout({hidden}) {
                             <button type="submit" className="btn bg-color1 text-white mt-2 border-black rounded-0">SUBMIT</button>
                         </form>
                     </div>
-                    <div className="col-lg-6 col-xxl-12">
+                    <div className="col-md-3">
                         {/* CONTACT INFO */}
                         <div className="px-4">
                             <p>AUSTIN, TX 78758</p>
                             <p>PHONE: (###) ###-####</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xxl-12">
+                    <div className="col-md-3">
                         {/* ICONS */}
                         <div className="icons fs-4 mb-2 px-5 ">
                             <a href="https://www.facebook.com/">
@@ -34,7 +34,7 @@ export function FooterLayout({hidden}) {
                             </a>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-xxl-12">
+                    <div className="col-md-3">
                         {/* RIGHTS */}
                         <div className="px-4">
                             <p>Red Deck, Inc. ©  2009 - 2023</p>
