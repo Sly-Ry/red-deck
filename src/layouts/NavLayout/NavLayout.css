@@ -31,7 +31,7 @@
     background-color: rgb(255, 0, 0) !important;
 }
 
-@media (max-width: 1400px){ 
+@media (max-width: 1399px){ 
 
     #navlay {
         position: relative;

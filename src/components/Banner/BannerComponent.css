@@ -24,3 +24,10 @@
     text-decoration: underline !important;
 }
 
+@media (max-width: 1399px) { 
+    .side {
+        background-color: rgba(0, 0, 0, 0.192);
+        text-shadow: 0 4px 5px black;
+    }
+
+}

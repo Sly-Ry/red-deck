@@ -1,0 +1,13 @@
+@media (max-width: 1399px) {
+    
+    #menuNav {
+        height: 80px;
+    }
+    .menu .section .section-title {
+        margin-bottom: 20px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center !important;
+        font-size: 4.5rem !important;
+    }
+}

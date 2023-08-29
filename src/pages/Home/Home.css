@@ -17,11 +17,7 @@
     text-shadow: 0px 4px 2px rgb(0, 0, 0);
 }
 
-@media (max-width: 1400px){ 
-
-    .page {
-        min-height: 0;
-    }
+@media (max-width: 1399px){ 
 
     .home {
         margin: 0;
@@ -33,9 +29,6 @@
         margin-bottom: 20px;
     }
 
-    .en {
-        display: none;
-    }
 
     .ghost {
         display: none;

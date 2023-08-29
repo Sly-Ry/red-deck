@@ -1,0 +1,13 @@
+@media (max-width: 1399px) {
+    .about .spot {
+        display: block;
+    }
+
+    .about .photo {
+        padding: 0 !important;
+    }
+
+    .about .info {
+        margin-top: 0 !important;
+    }
+}

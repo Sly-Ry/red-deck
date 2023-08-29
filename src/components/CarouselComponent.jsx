@@ -11,15 +11,15 @@ export function CarouselComponent() {
          <div id="carouselExampleControls" className="carousel slide bg-white" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={cafe2} className="col-6 w-50" alt="..."/>
+                        <img src={cafe2} className="col-0 col-md-6 w-50" alt="..."/>
                         <img src={cafe3} className="col-6 w-50" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src={cafe4} className="col-6 w-50" alt="..."/>
+                        <img src={cafe4} className="col-0 col-md-6 w-50" alt="..."/>
                         <img src={cafe5} className="col-6 w-50" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src={cafe6} className="col-6 w-50" alt="..."/>
+                        <img src={cafe6} className="col-0 col-md-6 w-50" alt="..."/>
                         <img src={cafe7} className="col-6 w-50" alt="..."/>
                     </div>
                 </div>

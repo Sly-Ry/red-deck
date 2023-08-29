@@ -1,3 +1,5 @@
+import './MenuLayout.css'
+
 import { BannerComponent } from '../../components/Banner/BannerComponent';
 import { MenuBodyLayout } from './MenuBodyLayout';
 import { CarouselComponent } from '../../components/CarouselComponent';
