@@ -15,6 +15,7 @@ import Contact from './pages/Contact/Contact';
 // COMPONENTS
 import { NavLayout } from './layouts/NavLayout/NavLayout';
 import { AllFooterLayout } from './components/AllFooterComponent';
+import ScrollToTop from 'react-scroll-to-top';
 
 export default function App() {
   return (
@@ -34,6 +35,23 @@ export default function App() {
               </Routes>
             </div>
             <AllFooterLayout hidden="hidden" />
+            <ScrollToTop 
+              smooth 
+              className='scrolltab'
+              color='white'
+              style={{
+                backgroundColor: 'transparent',
+                width: 75, 
+                height: 55,
+                position:'fixed',
+                bottom: 0,
+                right: 40,
+                borderTopLeftRadius: 5,
+                borderTopRightRadius: 5,
+                borderBottomLeftRadius: 0,
+                borderBottomRightRadius: 0
+              }}
+            />
         </div>
       </div>
     </>

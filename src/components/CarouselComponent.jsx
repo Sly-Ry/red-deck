@@ -8,8 +8,8 @@ import cafe7 from '../assets/images/cafe7.jpg';
 export function CarouselComponent() {
     return (
         <>
-         <div id="carouselExampleControls" className="carousel slide bg-white" data-bs-ride="carousel">
-                <div className="carousel-inner">
+         <div id="carouselExampleControls" className="carousel slide bg-white vap" data-bs-ride="carousel">
+                <div className="carousel-inner ">
                     <div className="carousel-item active">
                         <img src={cafe2} className="col-0 col-md-6 w-50" alt="..."/>
                         <img src={cafe3} className="col-6 w-50" alt="..."/>
