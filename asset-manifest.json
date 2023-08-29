@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/red-deck/static/css/main.8580e07a.css",
-    "main.js": "/red-deck/static/js/main.2fed3b69.js",
+    "main.css": "/red-deck/static/css/main.e0e126cb.css",
+    "main.js": "/red-deck/static/js/main.b2885491.js",
     "static/js/787.c69d4d7a.chunk.js": "/red-deck/static/js/787.c69d4d7a.chunk.js",
     "static/media/cafe6.jpg": "/red-deck/static/media/cafe6.cfba764d49d21b88350c.jpg",
     "static/media/bg1.jpg": "/red-deck/static/media/bg1.39b1ac54a66d26d06693.jpg",
@@ -21,12 +21,12 @@
     "static/media/bootstrap-icons.woff?": "/red-deck/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/red-deck/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/red-deck/index.html",
-    "main.8580e07a.css.map": "/red-deck/static/css/main.8580e07a.css.map",
-    "main.2fed3b69.js.map": "/red-deck/static/js/main.2fed3b69.js.map",
+    "main.e0e126cb.css.map": "/red-deck/static/css/main.e0e126cb.css.map",
+    "main.b2885491.js.map": "/red-deck/static/js/main.b2885491.js.map",
     "787.c69d4d7a.chunk.js.map": "/red-deck/static/js/787.c69d4d7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8580e07a.css",
-    "static/js/main.2fed3b69.js"
+    "static/css/main.e0e126cb.css",
+    "static/js/main.b2885491.js"
   ]
 }
