@@ -1,4 +1,4 @@
-export function FooterLayout({hidden}) {
+export function FooterLayout() {
     return (
         <>
             <div id="footer" className="container-fluid bg-color2 page ">

@@ -10,7 +10,7 @@ export function AllFooterLayout({hidden}) {
                                 <label htmlFor="email" className="form-label">MAILING LIST</label>
                                 <input type="email" className="form-control border-black rounded-0" id="email" placeholder="EMAIL"/>
                             </div>
-                            <button type="submit" className="btn bg-color1 text-white mt-2 border-black rounded-0">SUBMIT</button>
+                            <button type="submit" className="btn bg-color1 text-white border-black rounded-0 mt-2">SUBMIT</button>
                         </form>
                     </div>
                     <div className="col-md-3">

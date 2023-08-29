@@ -113,11 +113,20 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+
     .vap {
         display: none;
     }
 
     .page-sm {
         min-height: 0;
+    }
+  
+    #allfooter .row .icons i {
+        font-size: 2.2rem;
+    }
+
+    #allfooter i {
+        padding: 0 25px !important;
     }
 }

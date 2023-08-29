@@ -42,11 +42,11 @@ export default function App() {
               color=''
               style={{
                 backgroundColor: '',
-                width: 85, 
-                height: 85,
+                width: 75, 
+                height: 75,
                 position:'fixed',
-                bottom: 20,
-                right: 45,
+                bottom: 10,
+                right: 15,
                 borderTopLeftRadius: 50,
                 borderTopRightRadius: 50,
                 borderBottomLeftRadius: 50,
